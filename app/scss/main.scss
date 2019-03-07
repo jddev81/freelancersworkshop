@@ -1,0 +1,89 @@
+$navbg: #262626;
+$logo: #f04e13;
+$fb: #4267B2;
+
+body {
+	background-image:url('../img/freelancer.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	//min-height:100vh;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.nav-bar {
+	background-color:$navbg;
+	color:white;
+	padding:10px;
+	box-shadow:0px 0px 5px #000;
+	height:50px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index:99;
+
+	ul.right-nav {
+		margin:0px;
+		padding:0px;
+		list-style-type:none;
+
+		li {
+			float:right;
+			a {
+				color:#E9EBEE;
+				height:30px;
+				line-height:30px;
+				display:block;
+				.fab {
+					font-size:18px;
+					height:30px;
+					width:30px;
+					text-align:center;
+					line-height:30px;
+					border-radius:50%;
+					background-color:$fb;
+				}
+			}
+		}
+	}
+
+	img.logo {
+		height:30px;
+		width:auto;
+		display:block;
+		margin:0 auto;
+	}
+}
+
+.clear-nav {
+	margin-top:50px;
+}
+
+.color-white {
+	color:white;
+}
+
+footer.main {
+	background-color:rgba(0, 0, 0, 0.8);
+	padding:30px;
+	margin-top:200px;
+
+	p.copyright {
+		color:#ccc;
+		font-size:10px;
+	}
+	
+}
+
+#mc_embed_signup {
+	background-color:rgba(0, 0, 0, 0.3) !important;
+	color:white !important;
+	padding:30px !important;
+
+	input.button {
+		background-color:$logo !important;
+	}
+}
+
